@@ -53,4 +53,58 @@ window.STORIES = [
       },
     ],
   },
+  {
+    id: "bong-di-hoc-boi",
+    title: "Bong di hoc boi",
+    displayTitle: "Bông đi học bơi",
+    topic: "Mùa hè năng động",
+    age: "Lớp 1",
+    cover: "./assets/stories/bong-di-hoc-boi-cover.png",
+    palette: {
+      main: "#1e8db7",
+      soft: "#e7f7f7",
+      leaf: "#78a95c",
+    },
+    pages: [
+      {
+        kind: "cover",
+        title: "Bông đi học bơi",
+        text: "Một câu chuyện nhỏ về mùa hè, làn nước mát và lòng can đảm.",
+        image: "./assets/stories/bong-di-hoc-boi-cover.png",
+      },
+      {
+        scene: "playground",
+        text: "Mùa hè đến, trời nắng vàng rực rỡ. Bông thích ăn kem, thích mặc váy hoa, nhưng lại hơi ngại đi học bơi.",
+      },
+      {
+        scene: "mom",
+        text: "Mẹ nói: “Biết bơi sẽ giúp con khỏe hơn và an toàn hơn.” Bông ôm chiếc kính bơi mới, lí nhí: “Con sợ nước bắn vào mặt.”",
+      },
+      {
+        scene: "friends",
+        text: "Ở bể bơi, cô giáo mỉm cười chào Bông. Cô nói: “Hôm nay mình chỉ làm quen với nước thôi. Chậm rãi cũng được.”",
+      },
+      {
+        scene: "thinking",
+        text: "Bông ngồi ở bậc thấp nhất. Nước mát chạm vào bàn chân. Bạn ấy hít một hơi thật sâu rồi cười: “Ồ, không lạnh lắm!”",
+      },
+      {
+        scene: "helper",
+        text: "Cô giáo đưa cho Bông một tấm phao nhỏ. Bông bám vào phao, đạp chân lách tách. Nước bắn lên như những hạt mưa vui.",
+      },
+      {
+        scene: "friends",
+        text: "Các bạn vỗ tay cổ vũ: “Bông giỏi quá!” Bông thấy tim mình đập nhanh, nhưng không còn muốn chạy ra ngoài nữa.",
+      },
+      {
+        scene: "home",
+        text: "Cuối buổi, Bông nói với mẹ: “Mai con muốn đi học bơi nữa.” Mẹ cười thật tươi: “Mỗi ngày một chút, con sẽ bơi tốt thôi.”",
+      },
+      {
+        kind: "lesson",
+        title: "Bông đã hiểu",
+        text: "Học bơi giúp bé khỏe mạnh, tự tin và an toàn hơn. Bé hãy học cùng thầy cô, có người lớn trông coi, và không tự xuống nước một mình.",
+      },
+    ],
+  },
 ];
