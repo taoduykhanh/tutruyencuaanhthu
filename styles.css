@@ -147,7 +147,8 @@ h1 {
 }
 
 .reader-shell {
-  min-height: 100svh;
+  height: 100svh;
+  overflow: hidden;
   display: grid;
   grid-template-rows: auto 1fr auto;
   gap: 12px;
@@ -229,7 +230,8 @@ h1 {
 
 .book-page {
   width: min(100%, 1080px);
-  min-height: min(720px, calc(100svh - 150px));
+  height: min(720px, calc(100svh - 150px));
+  max-height: calc(100svh - 150px);
   display: grid;
   grid-template-columns: minmax(0, 1.1fr) minmax(280px, 0.9fr);
   overflow: hidden;
@@ -241,7 +243,8 @@ h1 {
 }
 
 .page-art {
-  min-height: 100%;
+  min-height: 0;
+  height: 100%;
   position: relative;
   overflow: hidden;
 }
@@ -250,7 +253,8 @@ h1 {
   width: 100%;
   height: 100%;
   display: block;
-  object-fit: cover;
+  object-fit: contain;
+  background: linear-gradient(135deg, #fff4d8, #e9f5ef);
 }
 
 .page-copy {
@@ -493,13 +497,14 @@ h1 {
   }
 
   .book-page {
-    min-height: calc(100svh - 140px);
+    height: calc(100svh - 140px);
+    max-height: calc(100svh - 140px);
     grid-template-columns: 1fr;
     grid-template-rows: minmax(0, 1fr) auto;
   }
 
   .page-copy {
-    min-height: 210px;
+    min-height: 180px;
     align-content: start;
     padding: 22px;
   }
@@ -525,7 +530,8 @@ h1 {
 
 @media (orientation: landscape) and (max-height: 620px) {
   .book-page {
-    min-height: calc(100svh - 124px);
+    height: calc(100svh - 124px);
+    max-height: calc(100svh - 124px);
   }
 
   .page-copy {
