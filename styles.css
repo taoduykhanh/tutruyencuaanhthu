@@ -289,6 +289,16 @@ h1 {
   line-height: 1.24;
 }
 
+.dialogue {
+  color: color-mix(in srgb, var(--story-main), #7b2c52 24%);
+  font-weight: 800;
+  background: rgba(255, 247, 194, 0.68);
+  border-radius: 8px;
+  padding: 0 0.18em;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
 .thumb-next {
   position: fixed;
   right: max(12px, env(safe-area-inset-right));

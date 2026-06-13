@@ -1,7 +1,7 @@
 {
   "name": "Tu truyen cua Anh Thu",
   "short_name": "Tu truyen",
-  "start_url": "./?v=20260613-ten-stories",
+  "start_url": "./?v=20260614-dialogue-style",
   "scope": "./",
   "display": "standalone",
   "background_color": "#f8efe2",
@@ -9,7 +9,7 @@
   "description": "Tu truyen tranh ngan cho be doc tren iPad.",
   "icons": [
     {
-      "src": "./assets/stories/min-chay-bo-buoi-sang-cover.png?v=20260613-ten-stories",
+      "src": "./assets/stories/min-chay-bo-buoi-sang-cover.png?v=20260614-dialogue-style",
       "sizes": "1024x1024",
       "type": "image/png",
       "purpose": "any"

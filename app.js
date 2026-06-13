@@ -1,5 +1,5 @@
 (function () {
-  const APP_VERSION = "20260613-ten-stories";
+  const APP_VERSION = "20260614-dialogue-style";
   const app = document.querySelector("#app");
   const stories = window.STORIES || [];
 
@@ -105,8 +105,8 @@
         <article class="book-page ${page.kind ? `page-${page.kind}` : ""}" data-scene="${page.scene || ""}">
           ${renderArt(page, story)}
           <section class="page-copy">
-            ${page.title ? `<h2>${page.title}</h2>` : ""}
-            <p>${page.text}</p>
+            ${page.title ? `<h2>${escapeHtml(page.title)}</h2>` : ""}
+            <p>${formatStoryText(page.text)}</p>
           </section>
         </article>
       </main>
@@ -158,6 +158,19 @@
         <div class="scene-mark">${sceneIcon(page.scene)}</div>
       </div>
     `;
+  }
+
+  function escapeHtml(text) {
+    return String(text)
+      .replaceAll("&", "&amp;")
+      .replaceAll("<", "&lt;")
+      .replaceAll(">", "&gt;")
+      .replaceAll('"', "&quot;")
+      .replaceAll("'", "&#039;");
+  }
+
+  function formatStoryText(text) {
+    return escapeHtml(text).replace(/(“[^”]+”|"[^"]+")/g, '<span class="dialogue">$1</span>');
   }
 
   function sceneIcon(scene) {
