@@ -1,4 +1,5 @@
 (function () {
+  const APP_VERSION = "20260613-swim2";
   const app = document.querySelector("#app");
   const stories = window.STORIES || [];
 
@@ -36,6 +37,11 @@
     window.location.hash = `/story/${storyId}/${pageIndex + 1}`;
   }
 
+  function assetUrl(src) {
+    const separator = src.includes("?") ? "&" : "?";
+    return `${src}${separator}v=${APP_VERSION}`;
+  }
+
   function renderLibrary() {
     app.className = "app-shell library-shell";
     app.innerHTML = `
@@ -52,7 +58,7 @@
             (story) => `
               <button class="book-card" type="button" data-story="${story.id}" style="--book-main: ${story.palette.main}; --book-soft: ${story.palette.soft};">
                 <span class="cover-wrap">
-                  <img src="${story.cover}" alt="Bia truyen ${story.displayTitle}" />
+                  <img src="${assetUrl(story.cover)}" alt="Bia truyen ${story.displayTitle}" />
                 </span>
                 <span class="book-info">
                   <strong>${story.displayTitle}</strong>
@@ -124,7 +130,7 @@
     if (page.image) {
       return `
         <div class="page-art image-art">
-          <img src="${page.image}" alt="" />
+          <img src="${assetUrl(page.image)}" alt="" />
         </div>
       `;
     }
@@ -190,6 +196,21 @@
     renderLibrary();
   }
 
+  function checkForFreshVersion() {
+    fetch(`./version.json?ts=${Date.now()}`, { cache: "no-store" })
+      .then((response) => (response.ok ? response.json() : null))
+      .then((info) => {
+        if (!info || !info.version) return;
+        const storedVersion = window.localStorage.getItem("tu-truyen-version");
+        window.localStorage.setItem("tu-truyen-version", info.version);
+        if (storedVersion && storedVersion !== info.version && !window.location.search.includes(`v=${info.version}`)) {
+          window.location.replace(`${window.location.pathname}?v=${encodeURIComponent(info.version)}${window.location.hash}`);
+        }
+      })
+      .catch(() => {});
+  }
+
   window.addEventListener("hashchange", render);
   render();
+  checkForFreshVersion();
 })();
