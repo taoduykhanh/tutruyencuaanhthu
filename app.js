@@ -1,5 +1,5 @@
 (function () {
-  const APP_VERSION = "20260614-dialogue-style";
+  const APP_VERSION = "20260614-safety-body";
   const app = document.querySelector("#app");
   const stories = window.STORIES || [];
 

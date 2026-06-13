@@ -539,4 +539,274 @@ window.STORIES = [
       },
     ],
   },
+  {
+    id: "miu-co-the-cua-con",
+    title: "Miu co the cua con",
+    displayTitle: "Miu và cơ thể của con",
+    topic: "Giáo dục giới tính",
+    age: "Lớp 1",
+    cover: "./assets/stories/miu-co-the-cua-con-cover.png",
+    palette: {
+      main: "#4c9c95",
+      soft: "#edf9f4",
+      leaf: "#76a85e",
+    },
+    pages: [
+      {
+        kind: "cover",
+        title: "Miu và cơ thể của con",
+        text: "Một câu chuyện nhỏ về cơ thể, cảm giác và quyền nói không.",
+        image: "./assets/stories/miu-co-the-cua-con-cover.png",
+      },
+      {
+        scene: "home",
+        text: "Miu đang chơi xếp hình trong phòng khách. Mẹ ngồi bên cạnh và đọc sách cùng Miu.",
+      },
+      {
+        scene: "mom",
+        text: "Mẹ nói: “Cơ thể của con là của con. Con có quyền nói không nếu con không thích.”",
+      },
+      {
+        scene: "thinking",
+        text: "Miu hỏi: “Nếu ai đó muốn ôm con mà con chưa muốn thì sao ạ?” Mẹ mỉm cười và gật đầu.",
+      },
+      {
+        scene: "helper",
+        text: "Mẹ đáp: “Con có thể nói: ‘Con không muốn ạ.’ Rồi con đứng gần mẹ hoặc người lớn con tin.”",
+      },
+      {
+        scene: "friends",
+        text: "Hôm sau, bạn Na muốn ôm Miu thật chặt. Miu nói nhẹ: “Mình chỉ muốn đập tay thôi.”",
+      },
+      {
+        scene: "playground",
+        text: "Na cười và giơ tay ra. Hai bạn đập tay thật vui. Miu thấy lòng mình nhẹ nhàng.",
+      },
+      {
+        scene: "home",
+        text: "Tối về, Miu kể với mẹ. Mẹ khen: “Con đã lắng nghe cảm giác của mình rất tốt.”",
+      },
+      {
+        kind: "lesson",
+        title: "Miu đã nhớ",
+        text: "Cơ thể của bé là của bé. Bé có thể nói không, lùi lại, và tìm người lớn tin cậy khi thấy không thoải mái.",
+      },
+    ],
+  },
+  {
+    id: "nam-vung-do-boi",
+    title: "Nam vung do boi",
+    displayTitle: "Nam nhớ vùng đồ bơi",
+    topic: "Giáo dục giới tính",
+    age: "Lớp 1",
+    cover: "./assets/stories/nam-vung-do-boi-cover.png",
+    palette: {
+      main: "#2c8fbd",
+      soft: "#eaf7ff",
+      leaf: "#6fae6e",
+    },
+    pages: [
+      {
+        kind: "cover",
+        title: "Nam nhớ vùng đồ bơi",
+        text: "Một câu chuyện nhỏ về vùng riêng tư và cách giữ an toàn.",
+        image: "./assets/stories/nam-vung-do-boi-cover.png",
+      },
+      {
+        scene: "home",
+        text: "Nam chuẩn bị đi bơi cùng bố. Bố đưa cho Nam bộ đồ bơi màu xanh.",
+      },
+      {
+        scene: "mom",
+        text: "Bố nói: “Những chỗ đồ bơi che lại là vùng riêng tư của con.” Nam nhìn bộ đồ bơi và gật đầu.",
+      },
+      {
+        scene: "thinking",
+        text: "Nam hỏi: “Vùng riêng tư nghĩa là gì ạ?” Bố đáp: “Đó là nơi con cần giữ kín và được tôn trọng.”",
+      },
+      {
+        scene: "helper",
+        text: "Bố nói tiếp: “Nếu cần giúp thay đồ, con chỉ nhờ bố, mẹ hoặc người chăm sóc mà con tin.”",
+      },
+      {
+        scene: "playground",
+        text: "Ở bể bơi, Nam tự thay đồ trong phòng thay đồ cùng bố. Nam nhớ đóng cửa cẩn thận.",
+      },
+      {
+        scene: "friends",
+        text: "Một bạn rủ Nam đùa trong phòng thay đồ. Nam nói: “Mình thay đồ xong rồi ra ngoài chơi nhé.”",
+      },
+      {
+        scene: "home",
+        text: "Sau buổi bơi, Nam kể lại với bố. Bố khen: “Con nhớ rất đúng.”",
+      },
+      {
+        kind: "lesson",
+        title: "Nam đã nhớ",
+        text: "Vùng đồ bơi là vùng riêng tư. Bé cần giữ kín, thay đồ nơi kín đáo, và nhờ người lớn tin cậy khi cần giúp.",
+      },
+    ],
+  },
+  {
+    id: "suri-biet-noi-khong",
+    title: "Suri biet noi khong",
+    displayTitle: "Suri biết nói không",
+    topic: "Giáo dục giới tính",
+    age: "Lớp 1",
+    cover: "./assets/stories/suri-biet-noi-khong-cover.png",
+    palette: {
+      main: "#d36c6f",
+      soft: "#fff1ee",
+      leaf: "#68a66c",
+    },
+    pages: [
+      {
+        kind: "cover",
+        title: "Suri biết nói không",
+        text: "Một câu chuyện nhỏ về giọng nói mạnh mẽ và bước chân lùi lại.",
+        image: "./assets/stories/suri-biet-noi-khong-cover.png",
+      },
+      {
+        scene: "playground",
+        text: "Suri chơi ở sân trường. Một bạn lớn kéo tay Suri để rủ chơi trò đuổi bắt.",
+      },
+      {
+        scene: "thinking",
+        text: "Suri thấy tay mình bị kéo hơi đau. Bạn ấy không muốn chơi trò đó.",
+      },
+      {
+        scene: "helper",
+        text: "Suri nhớ lời cô dặn. Bạn ấy nói rõ: “Dừng lại. Mình không thích.”",
+      },
+      {
+        scene: "friends",
+        text: "Bạn lớn buông tay ra. Suri lùi lại một bước và đi về phía cô giáo.",
+      },
+      {
+        scene: "mom",
+        text: "Suri kể: “Bạn kéo tay con, con không thích ạ.” Cô giáo lắng nghe và hỏi Suri có đau không.",
+      },
+      {
+        scene: "playground",
+        text: "Sau đó, cô giáo nhắc cả lớp: “Khi chơi, mình phải hỏi bạn trước và lắng nghe bạn.”",
+      },
+      {
+        scene: "home",
+        text: "Tối về, Suri kể với mẹ. Mẹ nói: “Con nói không rất rõ ràng. Mẹ tự hào về con.”",
+      },
+      {
+        kind: "lesson",
+        title: "Suri đã nhớ",
+        text: "Khi bé không thích một cái chạm hay trò chơi nào, bé có thể nói không, lùi lại và kể với người lớn tin cậy.",
+      },
+    ],
+  },
+  {
+    id: "ken-ke-dieu-lam-lo",
+    title: "Ken ke dieu lam lo",
+    displayTitle: "Ken kể điều làm lo",
+    topic: "Giáo dục giới tính",
+    age: "Lớp 1",
+    cover: "./assets/stories/ken-ke-dieu-lam-lo-cover.png",
+    palette: {
+      main: "#6f79bd",
+      soft: "#f0f2ff",
+      leaf: "#7aa65b",
+    },
+    pages: [
+      {
+        kind: "cover",
+        title: "Ken kể điều làm lo",
+        text: "Một câu chuyện nhỏ về bí mật, cảm giác lo và người lớn tin cậy.",
+        image: "./assets/stories/ken-ke-dieu-lam-lo-cover.png",
+      },
+      {
+        scene: "home",
+        text: "Ken có một hộp bút mới. Bạn Tí làm rơi hộp bút rồi nói: “Đừng kể với ai nhé.”",
+      },
+      {
+        scene: "thinking",
+        text: "Ken không bị đau, nhưng trong bụng thấy lo. Bạn ấy cứ nghĩ mãi về câu nói đó.",
+      },
+      {
+        scene: "mom",
+        text: "Bà thấy Ken im lặng liền hỏi: “Có điều gì làm con lo không?” Ken nhìn bà và gật đầu.",
+      },
+      {
+        scene: "helper",
+        text: "Ken kể hết mọi chuyện. Bà nói: “Bí mật làm con lo thì con nên kể với người lớn tin cậy.”",
+      },
+      {
+        scene: "friends",
+        text: "Ngày hôm sau, Ken nói với Tí: “Mình đã kể với bà. Mình không muốn giữ bí mật làm mình lo.”",
+      },
+      {
+        scene: "playground",
+        text: "Tí xin lỗi Ken. Hai bạn cùng nhặt bút và cất vào hộp gọn gàng.",
+      },
+      {
+        scene: "home",
+        text: "Ken thấy lòng nhẹ hơn. Bạn ấy hiểu rằng kể thật không phải là mách xấu.",
+      },
+      {
+        kind: "lesson",
+        title: "Ken đã nhớ",
+        text: "Bí mật vui làm bé vui. Bí mật làm bé sợ, lo hoặc khó chịu thì bé cần kể với bố mẹ, thầy cô hoặc người lớn tin cậy.",
+      },
+    ],
+  },
+  {
+    id: "hana-can-su-rieng-tu",
+    title: "Hana can su rieng tu",
+    displayTitle: "Hana cần sự riêng tư",
+    topic: "Giáo dục giới tính",
+    age: "Lớp 1",
+    cover: "./assets/stories/hana-can-su-rieng-tu-cover.png",
+    palette: {
+      main: "#4a9fa3",
+      soft: "#edfafa",
+      leaf: "#73a95d",
+    },
+    pages: [
+      {
+        kind: "cover",
+        title: "Hana cần sự riêng tư",
+        text: "Một câu chuyện nhỏ về cửa phòng tắm, thay đồ và sự tôn trọng.",
+        image: "./assets/stories/hana-can-su-rieng-tu-cover.png",
+      },
+      {
+        scene: "home",
+        text: "Hana chuẩn bị thay áo sau giờ chơi. Em trai chạy tới và định mở cửa phòng.",
+      },
+      {
+        scene: "thinking",
+        text: "Hana nói: “Khoan đã, chị đang thay đồ.” Em trai dừng lại trước cửa.",
+      },
+      {
+        scene: "mom",
+        text: "Mẹ nghe thấy liền nói: “Khi ai đó thay đồ hoặc đi vệ sinh, mình cần gõ cửa và chờ.”",
+      },
+      {
+        scene: "helper",
+        text: "Mẹ dạy em trai gõ cửa: “Cốc cốc. Con vào được chưa?” Hana đáp: “Chưa ạ, chờ con một chút.”",
+      },
+      {
+        scene: "friends",
+        text: "Lát sau, Hana mở cửa và cười. Em trai nói: “Em xin lỗi vì định mở cửa.”",
+      },
+      {
+        scene: "playground",
+        text: "Ở lớp, Hana cũng nhớ gõ cửa nhà vệ sinh trước khi vào. Bạn ấy biết tôn trọng người khác.",
+      },
+      {
+        scene: "home",
+        text: "Tối đó, mẹ khen: “Con biết giữ sự riêng tư cho mình và cho mọi người.” Hana thấy rất vui.",
+      },
+      {
+        kind: "lesson",
+        title: "Hana đã nhớ",
+        text: "Khi thay đồ hoặc đi vệ sinh, bé cần nơi riêng tư. Bé cũng nhớ gõ cửa và chờ khi người khác cần riêng tư.",
+      },
+    ],
+  },
 ];
