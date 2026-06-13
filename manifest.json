@@ -1,7 +1,7 @@
 {
   "name": "Tu truyen cua Anh Thu",
   "short_name": "Tu truyen",
-  "start_url": "./?v=20260613-five-stories",
+  "start_url": "./?v=20260613-reading-focus",
   "scope": "./",
   "display": "standalone",
   "background_color": "#f8efe2",
@@ -9,7 +9,7 @@
   "description": "Tu truyen tranh ngan cho be doc tren iPad.",
   "icons": [
     {
-      "src": "./assets/stories/an-di-ngu-dung-gio-cover.png?v=20260613-five-stories",
+      "src": "./assets/stories/an-di-ngu-dung-gio-cover.png?v=20260613-reading-focus",
       "sizes": "1024x1024",
       "type": "image/png",
       "purpose": "any"

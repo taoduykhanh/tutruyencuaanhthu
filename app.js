@@ -1,5 +1,5 @@
 (function () {
-  const APP_VERSION = "20260613-five-stories";
+  const APP_VERSION = "20260613-reading-focus";
   const app = document.querySelector("#app");
   const stories = window.STORIES || [];
 
@@ -118,11 +118,16 @@
         </div>
         <button class="nav-button" type="button" data-action="next" ${canNext ? "" : "disabled"}>Sau</button>
       </nav>
+
+      <button class="thumb-next" type="button" data-action="thumb-next" ${canNext ? "" : "disabled"} aria-label="Sang trang tiếp theo">
+        Tiếp
+      </button>
     `;
 
     app.querySelector('[data-action="library"]').addEventListener("click", goLibrary);
     app.querySelector('[data-action="prev"]').addEventListener("click", () => canPrev && goStory(story.id, state.page - 1));
     app.querySelector('[data-action="next"]').addEventListener("click", () => canNext && goStory(story.id, state.page + 1));
+    app.querySelector('[data-action="thumb-next"]').addEventListener("click", () => canNext && goStory(story.id, state.page + 1));
     wireSwipe(story, canPrev, canNext);
   }
 
