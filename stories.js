@@ -107,4 +107,166 @@ window.STORIES = [
       },
     ],
   },
+  {
+    id: "bin-danh-rang-sang-bong",
+    title: "Bin danh rang sang bong",
+    displayTitle: "Bin đánh răng sáng bóng",
+    topic: "Tự chăm sóc bản thân",
+    age: "Lớp 1",
+    cover: "./assets/stories/bin-danh-rang-sang-bong-cover.png",
+    palette: {
+      main: "#2b9aa4",
+      soft: "#eaf8f3",
+      leaf: "#76a85e",
+    },
+    pages: [
+      {
+        kind: "cover",
+        title: "Bin đánh răng sáng bóng",
+        text: "Một câu chuyện nhỏ về chiếc bàn chải và nụ cười sạch thơm.",
+        image: "./assets/stories/bin-danh-rang-sang-bong-cover.png",
+      },
+      {
+        scene: "home",
+        text: "Buổi sáng, Bin thức dậy và chạy ngay ra phòng khách. Bạn ấy quên mất chiếc bàn chải đang chờ trong cốc.",
+      },
+      {
+        scene: "mom",
+        text: "Mẹ gọi: “Bin ơi, răng cũng cần tắm mỗi ngày đấy.” Bin cười: “Răng cũng tắm hả mẹ?”",
+      },
+      {
+        scene: "thinking",
+        text: "Mẹ đưa cho Bin bàn chải màu xanh. Kem đánh răng thơm mùi bạc hà. Bin thấy hơi cay cay nhưng rất mát.",
+      },
+      {
+        scene: "helper",
+        text: "Mẹ chỉ: “Con chải mặt ngoài, mặt trong, rồi chải nhẹ trên mặt nhai.” Bin làm chậm rãi từng chút một.",
+      },
+      {
+        scene: "friends",
+        text: "Bọt trắng phồng lên như mây nhỏ. Bin soi gương và bật cười. Hai má bạn ấy tròn xoe.",
+      },
+      {
+        scene: "playground",
+        text: "Đến lớp, Bin cười chào cô giáo. Cô nói: “Hôm nay nụ cười của con sáng quá!” Bin thấy vui trong bụng.",
+      },
+      {
+        scene: "home",
+        text: "Tối hôm đó, Bin tự lấy bàn chải. Bạn ấy nói: “Răng ơi, mình cùng tắm nhé!” Mẹ đứng bên cạnh và mỉm cười.",
+      },
+      {
+        kind: "lesson",
+        title: "Bin đã nhớ",
+        text: "Bé đánh răng buổi sáng và buổi tối để răng sạch, miệng thơm và nụ cười khỏe mạnh hơn.",
+      },
+    ],
+  },
+  {
+    id: "mai-thu-an-rau",
+    title: "Mai thu an rau",
+    displayTitle: "Mai thử ăn rau",
+    topic: "Ăn uống lành mạnh",
+    age: "Lớp 1",
+    cover: "./assets/stories/mai-thu-an-rau-cover.png",
+    palette: {
+      main: "#5c9b43",
+      soft: "#fff7df",
+      leaf: "#3d8c69",
+    },
+    pages: [
+      {
+        kind: "cover",
+        title: "Mai thử ăn rau",
+        text: "Một câu chuyện nhỏ về chiếc đĩa nhiều màu và một miếng rau đầu tiên.",
+        image: "./assets/stories/mai-thu-an-rau-cover.png",
+      },
+      {
+        scene: "home",
+        text: "Bữa trưa, trên bàn có cơm nóng, trứng vàng và một đĩa rau xanh. Mai nhìn đĩa rau rồi nhăn mũi.",
+      },
+      {
+        scene: "mom",
+        text: "Bà nói: “Con chỉ cần thử một miếng nhỏ thôi.” Mai hỏi: “Nếu con không thích thì sao ạ?”",
+      },
+      {
+        scene: "helper",
+        text: "Bà xếp cà rốt thành mặt trời, dưa leo thành ngôi sao. Đĩa cơm của Mai bỗng giống một khu vườn vui.",
+      },
+      {
+        scene: "thinking",
+        text: "Mai gắp một miếng cà rốt bé xíu. Bạn ấy nhai chậm. Cà rốt giòn giòn và hơi ngọt.",
+      },
+      {
+        scene: "friends",
+        text: "Mai reo lên: “Không khó ăn như con nghĩ!” Bà cười: “Mỗi ngày thử một chút, con sẽ quen thêm nhiều vị mới.”",
+      },
+      {
+        scene: "playground",
+        text: "Chiều đó, Mai chạy ở sân chơi rất lâu. Bạn ấy thấy người mình nhẹ và khỏe hơn.",
+      },
+      {
+        scene: "home",
+        text: "Tối về, Mai tự chọn thêm một miếng dưa leo. Bạn ấy nói: “Con muốn đĩa cơm có đủ màu như cầu vồng.”",
+      },
+      {
+        kind: "lesson",
+        title: "Mai đã hiểu",
+        text: "Bé không cần ăn thật nhiều ngay. Bé hãy thử từng miếng nhỏ để cơ thể có thêm vitamin và lớn khỏe mỗi ngày.",
+      },
+    ],
+  },
+  {
+    id: "an-di-ngu-dung-gio",
+    title: "An di ngu dung gio",
+    displayTitle: "An đi ngủ đúng giờ",
+    topic: "Nếp sống tốt",
+    age: "Lớp 1",
+    cover: "./assets/stories/an-di-ngu-dung-gio-cover.png",
+    palette: {
+      main: "#6d70b8",
+      soft: "#f0edff",
+      leaf: "#6e9a75",
+    },
+    pages: [
+      {
+        kind: "cover",
+        title: "An đi ngủ đúng giờ",
+        text: "Một câu chuyện nhỏ về buổi tối êm và giấc mơ dịu dàng.",
+        image: "./assets/stories/an-di-ngu-dung-gio-cover.png",
+      },
+      {
+        scene: "home",
+        text: "Buổi tối, An vẫn muốn xếp thêm một tòa tháp đồ chơi. Mắt bạn ấy đã díp lại, nhưng tay vẫn chưa chịu dừng.",
+      },
+      {
+        scene: "mom",
+        text: "Bố nhắc: “Đến giờ ngủ rồi con.” An lắc đầu: “Con chơi thêm một chút nữa thôi ạ.”",
+      },
+      {
+        scene: "thinking",
+        text: "Bố chỉ chiếc đồng hồ nhỏ. Kim đã chạy đến giờ đi ngủ. An thở dài vì vẫn còn tiếc trò chơi.",
+      },
+      {
+        scene: "helper",
+        text: "Bố nói: “Mình cất đồ chơi vào hộp, mai con chơi tiếp.” An đặt từng khối gỗ về nhà của chúng.",
+      },
+      {
+        scene: "friends",
+        text: "An đánh răng, rửa mặt rồi chọn một cuốn truyện ngắn. Giọng bố đọc chậm rãi như tiếng gió nhẹ.",
+      },
+      {
+        scene: "home",
+        text: "An kéo chăn lên ngang bụng. Ngoài cửa sổ, mặt trăng tròn và sáng. Bạn ấy ngáp một cái thật dài.",
+      },
+      {
+        scene: "playground",
+        text: "Sáng hôm sau, An thức dậy rất tỉnh táo. Ở lớp, bạn ấy học bài nhanh và chơi đùa thật vui.",
+      },
+      {
+        kind: "lesson",
+        title: "An đã nhớ",
+        text: "Ngủ đúng giờ giúp bé cao lớn, khỏe mạnh và có nhiều năng lượng cho ngày mới.",
+      },
+    ],
+  },
 ];

@@ -1,5 +1,5 @@
 (function () {
-  const APP_VERSION = "20260613-swim2";
+  const APP_VERSION = "20260613-five-stories";
   const app = document.querySelector("#app");
   const stories = window.STORIES || [];
 
