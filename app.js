@@ -1,5 +1,5 @@
 (function () {
-  const APP_VERSION = "20260613-reading-focus";
+  const APP_VERSION = "20260613-ten-stories";
   const app = document.querySelector("#app");
   const stories = window.STORIES || [];
 

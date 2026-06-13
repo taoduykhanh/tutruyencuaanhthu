@@ -269,4 +269,274 @@ window.STORIES = [
       },
     ],
   },
+  {
+    id: "min-chay-bo-buoi-sang",
+    title: "Min chay bo buoi sang",
+    displayTitle: "Min chạy bộ buổi sáng",
+    topic: "Vận động khỏe vui",
+    age: "Lớp 1",
+    cover: "./assets/stories/min-chay-bo-buoi-sang-cover.png",
+    palette: {
+      main: "#4f9b58",
+      soft: "#eef8df",
+      leaf: "#3f8f6b",
+    },
+    pages: [
+      {
+        kind: "cover",
+        title: "Min chạy bộ buổi sáng",
+        text: "Một câu chuyện nhỏ về đôi giày thể thao và buổi sáng trong lành.",
+        image: "./assets/stories/min-chay-bo-buoi-sang-cover.png",
+      },
+      {
+        scene: "home",
+        text: "Sáng chủ nhật, Min còn muốn nằm thêm trong chăn. Ngoài cửa sổ, nắng vàng đã ghé vào phòng.",
+      },
+      {
+        scene: "mom",
+        text: "Bố nói: “Mình ra công viên chạy nhẹ nhé.” Min dụi mắt: “Con sợ mệt lắm ạ.”",
+      },
+      {
+        scene: "thinking",
+        text: "Bố đưa cho Min đôi giày mới. Min xỏ giày, buộc dây chậm rãi. Đôi giày ôm chân thật êm.",
+      },
+      {
+        scene: "playground",
+        text: "Ở công viên, bố và Min chạy thật chậm. Gió mát thổi qua má. Lá cây rung rinh như đang vẫy tay.",
+      },
+      {
+        scene: "helper",
+        text: "Min thở hơi nhanh. Bố nói: “Mệt thì mình đi bộ một đoạn.” Min gật đầu và bước đều đều.",
+      },
+      {
+        scene: "friends",
+        text: "Một lát sau, Min lại muốn chạy tiếp. Bạn ấy đếm: “Một, hai, ba!” rồi chạy tới chiếc ghế đá.",
+      },
+      {
+        scene: "home",
+        text: "Về nhà, Min uống nước và thấy người mình ấm lên. Bạn ấy cười: “Chạy bộ cũng vui bố nhỉ!”",
+      },
+      {
+        kind: "lesson",
+        title: "Min đã nhớ",
+        text: "Bé vận động mỗi ngày một chút để cơ thể khỏe hơn. Khi mệt, bé có thể đi chậm lại và uống nước.",
+      },
+    ],
+  },
+  {
+    id: "linh-tap-cau-long",
+    title: "Linh tap cau long",
+    displayTitle: "Linh tập cầu lông",
+    topic: "Vận động khỏe vui",
+    age: "Lớp 1",
+    cover: "./assets/stories/linh-tap-cau-long-cover.png",
+    palette: {
+      main: "#2d8fc0",
+      soft: "#eaf7ff",
+      leaf: "#70a75d",
+    },
+    pages: [
+      {
+        kind: "cover",
+        title: "Linh tập cầu lông",
+        text: "Một câu chuyện nhỏ về quả cầu trắng và cây vợt xinh.",
+        image: "./assets/stories/linh-tap-cau-long-cover.png",
+      },
+      {
+        scene: "playground",
+        text: "Chiều nay, sân trường có lưới cầu lông mới. Linh nhìn cây vợt nhỏ và thấy vừa thích vừa lo.",
+      },
+      {
+        scene: "mom",
+        text: "Cô giáo nói: “Mình tập từ từ thôi.” Linh hỏi: “Nếu con đánh hụt thì sao ạ?”",
+      },
+      {
+        scene: "thinking",
+        text: "Cô đặt quả cầu lên tay Linh. Quả cầu nhẹ như một bông hoa trắng. Linh thử tung lên thật thấp.",
+      },
+      {
+        scene: "helper",
+        text: "Lần đầu, Linh đánh hụt. Lần thứ hai, cầu chạm vào vợt và bay lên một chút. Linh mở to mắt.",
+      },
+      {
+        scene: "friends",
+        text: "Các bạn vỗ tay: “Được rồi đó!” Linh cười tươi. Bạn ấy thấy mình muốn thử thêm lần nữa.",
+      },
+      {
+        scene: "playground",
+        text: "Linh tập bước chân sang trái, rồi sang phải. Cô giáo nhắc: “Mắt nhìn cầu, tay đưa nhẹ thôi.”",
+      },
+      {
+        scene: "home",
+        text: "Cuối buổi, Linh đã đánh được ba quả liên tiếp. Bạn ấy khoe với mẹ: “Con muốn mai tập nữa!”",
+      },
+      {
+        kind: "lesson",
+        title: "Linh đã hiểu",
+        text: "Tập thể thao không cần giỏi ngay. Bé cứ thử từng chút, kiên nhẫn và vui với mỗi tiến bộ nhỏ.",
+      },
+    ],
+  },
+  {
+    id: "tom-hoc-dap-xe",
+    title: "Tom hoc dap xe",
+    displayTitle: "Tôm học đạp xe",
+    topic: "Can đảm thử điều mới",
+    age: "Lớp 1",
+    cover: "./assets/stories/tom-hoc-dap-xe-cover.png",
+    palette: {
+      main: "#1f9b8e",
+      soft: "#e8f8f3",
+      leaf: "#7aa65b",
+    },
+    pages: [
+      {
+        kind: "cover",
+        title: "Tôm học đạp xe",
+        text: "Một câu chuyện nhỏ về chiếc mũ bảo hiểm và vòng bánh xe đầu tiên.",
+        image: "./assets/stories/tom-hoc-dap-xe-cover.png",
+      },
+      {
+        scene: "home",
+        text: "Tôm có một chiếc xe đạp nhỏ màu xanh. Bạn ấy thích nhìn xe, nhưng chưa dám ngồi lên.",
+      },
+      {
+        scene: "mom",
+        text: "Bố đội mũ bảo hiểm cho Tôm. Bố nói: “Mình tập ở lối đi trong công viên, rất rộng và an toàn.”",
+      },
+      {
+        scene: "thinking",
+        text: "Tôm đặt hai tay lên ghi đông. Bánh xe hơi lắc. Tim Tôm đập thình thịch.",
+      },
+      {
+        scene: "helper",
+        text: "Bố đi bên cạnh và giữ yên sau xe. Tôm đạp một vòng, rồi hai vòng. Chiếc xe bắt đầu lăn chậm.",
+      },
+      {
+        scene: "playground",
+        text: "Gió thổi qua tai Tôm. Bạn ấy cười: “Xe đang chạy rồi!” Bố vẫn đi sát bên cạnh.",
+      },
+      {
+        scene: "friends",
+        text: "Tôm dừng lại ở vạch trắng. Bố khen: “Con biết bóp phanh rồi đó.” Tôm thấy mình can đảm hơn.",
+      },
+      {
+        scene: "home",
+        text: "Hôm sau, Tôm lại muốn tập. Bạn ấy tự lấy mũ bảo hiểm và nói: “An toàn trước đã ạ!”",
+      },
+      {
+        kind: "lesson",
+        title: "Tôm đã nhớ",
+        text: "Khi tập xe, bé cần đội mũ bảo hiểm, tập ở nơi an toàn và luôn có người lớn đi cùng.",
+      },
+    ],
+  },
+  {
+    id: "vy-nhay-day",
+    title: "Vy nhay day",
+    displayTitle: "Vy nhảy dây",
+    topic: "Vận động khỏe vui",
+    age: "Lớp 1",
+    cover: "./assets/stories/vy-nhay-day-cover.png",
+    palette: {
+      main: "#c8648d",
+      soft: "#fff0f6",
+      leaf: "#68a368",
+    },
+    pages: [
+      {
+        kind: "cover",
+        title: "Vy nhảy dây",
+        text: "Một câu chuyện nhỏ về sợi dây màu hồng và tiếng đếm vui vẻ.",
+        image: "./assets/stories/vy-nhay-day-cover.png",
+      },
+      {
+        scene: "playground",
+        text: "Giờ ra chơi, Vy thấy các bạn nhảy dây ngoài sân. Sợi dây quay vù vù dưới nắng.",
+      },
+      {
+        scene: "thinking",
+        text: "Vy cầm dây và thử nhảy. Dây vướng vào chân. Bạn ấy nhăn mặt: “Khó quá!”",
+      },
+      {
+        scene: "friends",
+        text: "Bạn Lan nói: “Vy thử quay chậm thôi.” Lan đứng bên cạnh và đếm: “Một, hai, ba.”",
+      },
+      {
+        scene: "helper",
+        text: "Vy quay dây thật chậm. Lần này, bạn ấy nhảy qua được một cái. Vy reo lên: “Con làm được rồi!”",
+      },
+      {
+        scene: "playground",
+        text: "Vy tập thêm. Có lúc dây vẫn vướng, nhưng Vy không bỏ cuộc. Bạn ấy hít thở rồi thử lại.",
+      },
+      {
+        scene: "friends",
+        text: "Cuối giờ, Vy nhảy được năm cái liên tiếp. Các bạn cùng đếm thật to và cười vang.",
+      },
+      {
+        scene: "home",
+        text: "Về nhà, Vy kể với mẹ: “Con nhảy được năm cái!” Mẹ ôm Vy: “Ngày mai con sẽ còn tiến bộ nữa.”",
+      },
+      {
+        kind: "lesson",
+        title: "Vy đã hiểu",
+        text: "Khi học điều mới, bé có thể sai vài lần. Bé cứ bình tĩnh tập lại, từng chút một sẽ tốt hơn.",
+      },
+    ],
+  },
+  {
+    id: "khoa-uong-nuoc-du",
+    title: "Khoa uong nuoc du",
+    displayTitle: "Khoa uống nước đủ",
+    topic: "Chăm sóc sức khỏe",
+    age: "Lớp 1",
+    cover: "./assets/stories/khoa-uong-nuoc-du-cover.png",
+    palette: {
+      main: "#2c91c6",
+      soft: "#e9f8ff",
+      leaf: "#65a86b",
+    },
+    pages: [
+      {
+        kind: "cover",
+        title: "Khoa uống nước đủ",
+        text: "Một câu chuyện nhỏ về bình nước trong veo và ngày chơi thật khỏe.",
+        image: "./assets/stories/khoa-uong-nuoc-du-cover.png",
+      },
+      {
+        scene: "playground",
+        text: "Buổi chiều, Khoa chạy chơi ngoài sân rất lâu. Trán bạn ấy lấm tấm mồ hôi.",
+      },
+      {
+        scene: "mom",
+        text: "Cô giáo nhắc: “Khoa ơi, con uống nước nhé.” Khoa lắc đầu: “Con chưa khát lắm ạ.”",
+      },
+      {
+        scene: "thinking",
+        text: "Một lát sau, cổ họng Khoa khô khô. Bạn ấy chạy chậm lại và thấy người hơi mệt.",
+      },
+      {
+        scene: "helper",
+        text: "Cô giáo đưa bình nước cho Khoa. Khoa uống từng ngụm nhỏ. Nước mát đi qua cổ thật dễ chịu.",
+      },
+      {
+        scene: "friends",
+        text: "Bạn Nam cũng lấy bình nước ra. Hai bạn cùng ngồi nghỉ dưới bóng cây và trò chuyện nhỏ nhẹ.",
+      },
+      {
+        scene: "playground",
+        text: "Nghỉ một chút, Khoa thấy khỏe hơn. Bạn ấy chơi tiếp, nhưng nhớ uống nước sau mỗi lần vận động.",
+      },
+      {
+        scene: "home",
+        text: "Tối về, Khoa tự rửa bình nước. Bạn ấy nói: “Ngày mai con sẽ mang bình đầy nước đến lớp.”",
+      },
+      {
+        kind: "lesson",
+        title: "Khoa đã nhớ",
+        text: "Bé nên uống nước từng ngụm nhỏ trong ngày, nhất là khi trời nóng hoặc sau khi vận động.",
+      },
+    ],
+  },
 ];
