@@ -1,5 +1,5 @@
 (function () {
-  const APP_VERSION = "20260614-safety-body";
+  const APP_VERSION = "20260702-twenty-five-stories";
   const app = document.querySelector("#app");
   const stories = window.STORIES || [];
 

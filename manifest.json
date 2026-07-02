@@ -1,7 +1,7 @@
 {
   "name": "Tu truyen cua Anh Thu",
   "short_name": "Tu truyen",
-  "start_url": "./?v=20260614-safety-body",
+  "start_url": "./?v=20260702-twenty-five-stories",
   "scope": "./",
   "display": "standalone",
   "background_color": "#f8efe2",
@@ -9,7 +9,7 @@
   "description": "Tu truyen tranh ngan cho be doc tren iPad.",
   "icons": [
     {
-      "src": "./assets/stories/miu-co-the-cua-con-cover.png?v=20260614-safety-body",
+      "src": "./assets/stories/nhi-tu-soan-cap-cover.png?v=20260702-twenty-five-stories",
       "sizes": "1024x1024",
       "type": "image/png",
       "purpose": "any"
